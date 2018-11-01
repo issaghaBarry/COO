@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2018-10-31T19:49:21.314">
+<file name="/home/barry/Documents/l3s5/COO/COO/TP-PISCINE/src/main/java/fil/coo/action/Action.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="34" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.action" class="Action" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.action.exception'
+</violation>
+</file>
+<file name="/home/barry/Documents/l3s5/COO/COO/TP-PISCINE/src/main/java/fil/coo/action/FreeResourceAction.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.action" class="FreeResourceAction" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.resource'
+</violation>
+<violation beginline="34" endline="34" begincolumn="18" endcolumn="53" rule="EmptyCatchBlock" ruleset="Error Prone" package="fil.coo.action" class="FreeResourceAction" method="realyDoStep" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/home/barry/Documents/l3s5/COO/COO/TP-PISCINE/src/main/java/fil/coo/action/ResourceAction.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.action" class="ResourceAction" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.resource'
+</violation>
+</file>
+<file name="/home/barry/Documents/l3s5/COO/COO/TP-PISCINE/src/main/java/fil/coo/action/Scheduler.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="34" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.action" class="Scheduler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.action.exception'
+</violation>
+<violation beginline="75" endline="75" begincolumn="26" endcolumn="60" rule="EmptyCatchBlock" ruleset="Error Prone" package="fil.coo.action" class="Scheduler" method="realyDoStep" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/home/barry/Documents/l3s5/COO/COO/TP-PISCINE/src/main/java/fil/coo/action/TakeResourceAction.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.action" class="TakeResourceAction" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.resource'
+</violation>
+<violation beginline="38" endline="38" begincolumn="18" endcolumn="51" rule="EmptyCatchBlock" ruleset="Error Prone" package="fil.coo.action" class="TakeResourceAction" method="realyDoStep" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/home/barry/Documents/l3s5/COO/COO/TP-PISCINE/src/main/java/fil/coo/pool/Swimmer.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.pool" class="Swimmer" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.action'
+</violation>
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.pool" class="Swimmer" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.resource'
+</violation>
+</file>
+<file name="/home/barry/Documents/l3s5/COO/COO/TP-PISCINE/src/main/java/fil/coo/pool/SwimmingPool.java">
+<violation beginline="2" endline="2" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.pool" class="SwimmingPool" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.action'
+</violation>
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="34" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.pool" class="SwimmingPool" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.action.exception'
+</violation>
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Best Practices" package="fil.coo.pool" class="SwimmingPool" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'fil.coo.resource'
+</violation>
+</file>
+<file name="/home/barry/Documents/l3s5/COO/COO/TP-PISCINE/src/main/java/fil/coo/resource/Resource.java">
+<violation beginline="14" endline="14" begincolumn="16" endcolumn="36" rule="UnnecessaryModifier" ruleset="Code Style" package="fil.coo.resource" class="Resource" method="description" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'description': the method is declared in an interface type
+</violation>
+</file>
+</pmd>

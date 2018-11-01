@@ -1,0 +1,535 @@
+src/main/java/fil/coo/action/Action.java:10:	Abstract classes should be named AbstractXXX
+src/main/java/fil/coo/action/Action.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/Action.java:55:	Avoid if (x != y) ..; else ..;
+src/main/java/fil/coo/action/Action.java:58:	Avoid using if statements without curly braces
+src/main/java/fil/coo/action/Action.java:61:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/ActionState.java:3:	enumCommentRequirement Required
+src/main/java/fil/coo/action/FairScheduler.java:11:	Parameter 'laction' is not assigned and could be declared final
+src/main/java/fil/coo/action/FairScheduler.java:11:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/FairScheduler.java:15:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/FairScheduler.java:20:	protectedMethodCommentRequirement Required
+src/main/java/fil/coo/action/FairScheduler.java:23:	Local variable 'action' could be declared final
+src/main/java/fil/coo/action/FairScheduler.java:24:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/fil/coo/action/FairScheduler.java:24:	Consider simply returning the value vs storing it in local variable 'action'
+src/main/java/fil/coo/action/FairScheduler.java:26:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/fil/coo/action/ForeseableAction.java:10:	Field remainingTime has the same name as a method
+src/main/java/fil/coo/action/ForeseableAction.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/ForeseableAction.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/ForeseableAction.java:18:	Parameter 'time' is not assigned and could be declared final
+src/main/java/fil/coo/action/ForeseableAction.java:26:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/ForeseableAction.java:27:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/fil/coo/action/ForeseableAction.java:28:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/fil/coo/action/ForeseableAction.java:28:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/ForeseableAction.java:30:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/ForeseableAction.java:50:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/FreeResourceAction.java:17:	Parameter 'resourcePool' is not assigned and could be declared final
+src/main/java/fil/coo/action/FreeResourceAction.java:17:	Parameter 'user' is not assigned and could be declared final
+src/main/java/fil/coo/action/FreeResourceAction.java:22:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/FreeResourceAction.java:23:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/fil/coo/action/FreeResourceAction.java:24:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/fil/coo/action/FreeResourceAction.java:24:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/FreeResourceAction.java:26:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/FreeResourceAction.java:30:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/FreeResourceAction.java:34:	Avoid empty catch blocks
+src/main/java/fil/coo/action/ResourceAction.java:6:	Abstract classes should be named AbstractXXX
+src/main/java/fil/coo/action/ResourceAction.java:6:	headerCommentRequirement Required
+src/main/java/fil/coo/action/ResourceAction.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/ResourceAction.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/ResourceAction.java:17:	Parameter 'resourcePool' is not assigned and could be declared final
+src/main/java/fil/coo/action/ResourceAction.java:17:	Parameter 'user' is not assigned and could be declared final
+src/main/java/fil/coo/action/Scheduler.java:12:	Abstract classes should be named AbstractXXX
+src/main/java/fil/coo/action/Scheduler.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/Scheduler.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/Scheduler.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/Scheduler.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/action/Scheduler.java:29:	Parameter 'laction' is not assigned and could be declared final
+src/main/java/fil/coo/action/Scheduler.java:54:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/Scheduler.java:65:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/Scheduler.java:66:	Avoid variables with short names like a
+src/main/java/fil/coo/action/Scheduler.java:66:	Local variable 'a' could be declared final
+src/main/java/fil/coo/action/Scheduler.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/fil/coo/action/Scheduler.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/fil/coo/action/Scheduler.java:74:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/Scheduler.java:75:	Avoid empty catch blocks
+src/main/java/fil/coo/action/Scheduler.java:80:	Comment is too large: Line too long
+src/main/java/fil/coo/action/Scheduler.java:82:	Comment is too large: Line too long
+src/main/java/fil/coo/action/Scheduler.java:85:	Parameter 'action' is not assigned and could be declared final
+src/main/java/fil/coo/action/Scheduler.java:90:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/Scheduler.java:91:	Avoid using if statements without curly braces
+src/main/java/fil/coo/action/Scheduler.java:91:	Use opposite operator instead of the logic complement operator.
+src/main/java/fil/coo/action/Scheduler.java:99:	Parameter 'action' is not assigned and could be declared final
+src/main/java/fil/coo/action/Scheduler.java:100:	Avoid variables with short names like a
+src/main/java/fil/coo/action/Scheduler.java:100:	Local variable 'a' could be declared final
+src/main/java/fil/coo/action/Scheduler.java:101:	Avoid variables with short names like b
+src/main/java/fil/coo/action/Scheduler.java:101:	Local variable 'b' could be declared final
+src/main/java/fil/coo/action/Scheduler.java:102:	Avoid unnecessary comparisons in boolean expressions
+src/main/java/fil/coo/action/Scheduler.java:102:	Avoid unnecessary comparisons in boolean expressions
+src/main/java/fil/coo/action/Scheduler.java:102:	Avoid using if statements without curly braces
+src/main/java/fil/coo/action/SequentialScheduler.java:12:	Parameter 'laction' is not assigned and could be declared final
+src/main/java/fil/coo/action/SequentialScheduler.java:12:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/SequentialScheduler.java:16:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/SequentialScheduler.java:21:	protectedMethodCommentRequirement Required
+src/main/java/fil/coo/action/SequentialScheduler.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/fil/coo/action/SequentialScheduler.java:29:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/fil/coo/action/TakeResourceAction.java:20:	Parameter 'resourcePool' is not assigned and could be declared final
+src/main/java/fil/coo/action/TakeResourceAction.java:20:	Parameter 'user' is not assigned and could be declared final
+src/main/java/fil/coo/action/TakeResourceAction.java:26:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/TakeResourceAction.java:27:	Avoid if (x != y) ..; else ..;
+src/main/java/fil/coo/action/TakeResourceAction.java:27:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/fil/coo/action/TakeResourceAction.java:28:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/fil/coo/action/TakeResourceAction.java:28:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/TakeResourceAction.java:30:	Avoid using if...else statements without curly braces
+src/main/java/fil/coo/action/TakeResourceAction.java:34:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/TakeResourceAction.java:36:	Local variable 'resource' could be declared final
+src/main/java/fil/coo/action/TakeResourceAction.java:38:	Avoid empty catch blocks
+src/main/java/fil/coo/action/exception/ActionFinishedException.java:3:	headerCommentRequirement Required
+src/main/java/fil/coo/action/exception/ActionFinishedException.java:4:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/exception/ActionFinishedException.java:8:	Parameter 'message' is not assigned and could be declared final
+src/main/java/fil/coo/action/exception/ActionFinishedException.java:8:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/exception/SchedulerStartedException.java:3:	headerCommentRequirement Required
+src/main/java/fil/coo/action/exception/SchedulerStartedException.java:4:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/action/exception/SchedulerStartedException.java:7:	Parameter 'message' is not assigned and could be declared final
+src/main/java/fil/coo/action/exception/SchedulerStartedException.java:7:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/pool/Swimmer.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/pool/Swimmer.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/pool/Swimmer.java:17:	fieldCommentRequirement Required
+src/main/java/fil/coo/pool/Swimmer.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/pool/Swimmer.java:22:	Parameter 'basket' is not assigned and could be declared final
+src/main/java/fil/coo/pool/Swimmer.java:22:	Parameter 'cubicle' is not assigned and could be declared final
+src/main/java/fil/coo/pool/Swimmer.java:22:	Parameter 'dress' is not assigned and could be declared final
+src/main/java/fil/coo/pool/Swimmer.java:22:	Parameter 'name' is not assigned and could be declared final
+src/main/java/fil/coo/pool/Swimmer.java:22:	Parameter 'swim' is not assigned and could be declared final
+src/main/java/fil/coo/pool/Swimmer.java:22:	Parameter 'undress' is not assigned and could be declared final
+src/main/java/fil/coo/pool/Swimmer.java:22:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/pool/Swimmer.java:38:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/pool/Swimmer.java:39:	Comment is too large: Line too long
+src/main/java/fil/coo/pool/Swimmer.java:40:	Local variable 'lineseparator' could be declared final
+src/main/java/fil/coo/pool/SwimmingPool.java:11:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/fil/coo/pool/SwimmingPool.java:13:	Parameter 'args' is not assigned and could be declared final
+src/main/java/fil/coo/pool/SwimmingPool.java:16:	Avoid variables with short names like s
+src/main/java/fil/coo/pool/SwimmingPool.java:25:	Found 'DD'-anomaly for variable 'nbSteps' (lines '25'-'27').
+src/main/java/fil/coo/pool/SwimmingPool.java:27:	Found 'DD'-anomaly for variable 'nbSteps' (lines '27'-'27').
+src/main/java/fil/coo/pool/SwimmingPool.java:30:	System.out.println is used
+src/main/java/fil/coo/resource/Basket.java:8:	Each class should declare at least one constructor
+src/main/java/fil/coo/resource/Basket.java:11:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/resource/BasketPool.java:14:	Avoid variables with short names like n
+src/main/java/fil/coo/resource/BasketPool.java:14:	Parameter 'n' is not assigned and could be declared final
+src/main/java/fil/coo/resource/Cubicle.java:8:	Each class should declare at least one constructor
+src/main/java/fil/coo/resource/Cubicle.java:11:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/resource/CubiclePool.java:14:	Avoid variables with short names like n
+src/main/java/fil/coo/resource/CubiclePool.java:14:	Parameter 'n' is not assigned and could be declared final
+src/main/java/fil/coo/resource/Resource.java:14:	Avoid modifiers which are implied by the context
+src/main/java/fil/coo/resource/ResourcePool.java:10:	Abstract classes should be named AbstractXXX
+src/main/java/fil/coo/resource/ResourcePool.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/resource/ResourcePool.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/fil/coo/resource/ResourcePool.java:20:	Avoid variables with short names like n
+src/main/java/fil/coo/resource/ResourcePool.java:20:	Parameter 'n' is not assigned and could be declared final
+src/main/java/fil/coo/resource/ResourcePool.java:56:	Avoid using if statements without curly braces
+src/main/java/fil/coo/resource/ResourcePool.java:58:	Local variable 'resource' could be declared final
+src/main/java/fil/coo/resource/ResourcePool.java:64:	Parameter 'resource' is not assigned and could be declared final
+src/main/java/fil/coo/resource/ResourcePool.java:64:	publicMethodCommentRequirement Required
+src/main/java/fil/coo/resource/ResourcePool.java:65:	Avoid using if statements without curly braces
+src/main/java/fil/coo/resource/ResourceUser.java:8:	Each class should declare at least one constructor
+src/main/java/fil/coo/resource/ResourceUser.java:9:	fieldCommentRequirement Required
+src/main/java/fil/coo/resource/ResourceUser.java:23:	Parameter 'resource' is not assigned and could be declared final
+src/main/java/fil/coo/resource/ResourceUser.java:31:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/test/java/fil/coo/action/FairSchedulerTest.java:10:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/FairSchedulerTest.java:10:	headerCommentRequirement Required
+src/test/java/fil/coo/action/FairSchedulerTest.java:12:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/FairSchedulerTest.java:13:	Avoid variables with short names like l
+src/test/java/fil/coo/action/FairSchedulerTest.java:13:	Local variable 'l' could be declared final
+src/test/java/fil/coo/action/FairSchedulerTest.java:14:	Avoid variables with short names like a3
+src/test/java/fil/coo/action/FairSchedulerTest.java:14:	Local variable 'a3' could be declared final
+src/test/java/fil/coo/action/FairSchedulerTest.java:15:	Avoid variables with short names like a4
+src/test/java/fil/coo/action/FairSchedulerTest.java:15:	Local variable 'a4' could be declared final
+src/test/java/fil/coo/action/FairSchedulerTest.java:18:	Avoid variables with short names like s
+src/test/java/fil/coo/action/FairSchedulerTest.java:18:	Local variable 's' could be declared final
+src/test/java/fil/coo/action/FairSchedulerTest.java:19:	Consider simply returning the value vs storing it in local variable 's'
+src/test/java/fil/coo/action/FairSchedulerTest.java:22:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/FairSchedulerTest.java:23:	Avoid variables with short names like l
+src/test/java/fil/coo/action/FairSchedulerTest.java:23:	Local variable 'l' could be declared final
+src/test/java/fil/coo/action/FairSchedulerTest.java:24:	Avoid variables with short names like a3
+src/test/java/fil/coo/action/FairSchedulerTest.java:24:	Local variable 'a3' could be declared final
+src/test/java/fil/coo/action/FairSchedulerTest.java:26:	Avoid variables with short names like s1
+src/test/java/fil/coo/action/FairSchedulerTest.java:26:	Local variable 's1' could be declared final
+src/test/java/fil/coo/action/FairSchedulerTest.java:29:	Avoid empty catch blocks
+src/test/java/fil/coo/action/FairSchedulerTest.java:34:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/FairSchedulerTest.java:34:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/FairSchedulerTest.java:35:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FairSchedulerTest.java:35:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:35:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:35:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:35:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:36:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FairSchedulerTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:38:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FairSchedulerTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:39:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FairSchedulerTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:41:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FairSchedulerTest.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:42:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FairSchedulerTest.java:42:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:42:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:42:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FairSchedulerTest.java:42:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:6:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/FreeResourceActionTest.java:6:	This class name ends with Test but contains no test cases
+src/test/java/fil/coo/action/FreeResourceActionTest.java:6:	headerCommentRequirement Required
+src/test/java/fil/coo/action/FreeResourceActionTest.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/FreeResourceActionTest.java:7:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/FreeResourceActionTest.java:10:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/FreeResourceActionTest.java:16:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/FreeResourceActionTest.java:16:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/FreeResourceActionTest.java:17:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FreeResourceActionTest.java:17:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:17:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:18:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FreeResourceActionTest.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:20:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FreeResourceActionTest.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:24:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/FreeResourceActionTest.java:24:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/FreeResourceActionTest.java:25:	Avoid variables with short names like r
+src/test/java/fil/coo/action/FreeResourceActionTest.java:25:	Local variable 'r' could be declared final
+src/test/java/fil/coo/action/FreeResourceActionTest.java:27:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FreeResourceActionTest.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:29:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FreeResourceActionTest.java:29:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:29:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:29:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:30:	JUnit assertions should include a message
+src/test/java/fil/coo/action/FreeResourceActionTest.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/FreeResourceActionTest.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/ResourceActionTest.java:6:	Avoid unused imports such as 'org.junit.Test'
+src/test/java/fil/coo/action/ResourceActionTest.java:8:	No need to import a type that lives in the same package
+src/test/java/fil/coo/action/ResourceActionTest.java:15:	Abstract classes should be named AbstractXXX
+src/test/java/fil/coo/action/ResourceActionTest.java:15:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/ResourceActionTest.java:15:	headerCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:17:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/ResourceActionTest.java:17:	headerCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:18:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:23:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/ResourceActionTest.java:23:	headerCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:27:	headerCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:28:	Avoid variables with short names like n
+src/test/java/fil/coo/action/ResourceActionTest.java:28:	Parameter 'n' is not assigned and could be declared final
+src/test/java/fil/coo/action/ResourceActionTest.java:28:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:32:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:38:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/action/ResourceActionTest.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/ResourceActionTest.java:38:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:39:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/action/ResourceActionTest.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/ResourceActionTest.java:39:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:43:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:49:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:50:	Local variable 'user1' could be declared final
+src/test/java/fil/coo/action/ResourceActionTest.java:51:	Local variable 'resourcePool1' could be declared final
+src/test/java/fil/coo/action/ResourceActionTest.java:52:	Local variable 'take1' could be declared final
+src/test/java/fil/coo/action/ResourceActionTest.java:53:	Consider simply returning the value vs storing it in local variable 'take1'
+src/test/java/fil/coo/action/ResourceActionTest.java:57:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/ResourceActionTest.java:58:	Local variable 'user2' could be declared final
+src/test/java/fil/coo/action/ResourceActionTest.java:59:	Local variable 'resourcePool2' could be declared final
+src/test/java/fil/coo/action/ResourceActionTest.java:60:	Local variable 'take2' could be declared final
+src/test/java/fil/coo/action/ResourceActionTest.java:63:	Avoid empty catch blocks
+src/test/java/fil/coo/action/SchedulerTest.java:7:	Abstract classes should be named AbstractXXX
+src/test/java/fil/coo/action/SchedulerTest.java:7:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/SchedulerTest.java:7:	headerCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:9:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:13:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:17:	protectedMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:18:	protectedMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:20:	headerCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/SchedulerTest.java:21:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:23:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:27:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:29:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/fil/coo/action/SchedulerTest.java:31:	Avoid using if...else statements without curly braces
+src/test/java/fil/coo/action/SchedulerTest.java:34:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:39:	headerCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/SchedulerTest.java:40:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:42:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:46:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:47:	Avoid unnecessary if..then..else statements when returning booleans
+src/test/java/fil/coo/action/SchedulerTest.java:48:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/fil/coo/action/SchedulerTest.java:48:	Avoid using if...else statements without curly braces
+src/test/java/fil/coo/action/SchedulerTest.java:50:	Avoid using if...else statements without curly braces
+src/test/java/fil/coo/action/SchedulerTest.java:53:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:58:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/action/SchedulerTest.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/SchedulerTest.java:58:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:59:	Avoid variables with short names like a1
+src/test/java/fil/coo/action/SchedulerTest.java:59:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/action/SchedulerTest.java:59:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/SchedulerTest.java:59:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:60:	Avoid variables with short names like a2
+src/test/java/fil/coo/action/SchedulerTest.java:60:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/action/SchedulerTest.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/SchedulerTest.java:60:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:63:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:70:	Method names should not start with capital letters
+src/test/java/fil/coo/action/SchedulerTest.java:70:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:76:	Method names should not start with capital letters
+src/test/java/fil/coo/action/SchedulerTest.java:76:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:78:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SchedulerTest.java:78:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:78:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:83:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:84:	Local variable 'len' could be declared final
+src/test/java/fil/coo/action/SchedulerTest.java:86:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SchedulerTest.java:86:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:86:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:86:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:90:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/SchedulerTest.java:90:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SchedulerTest.java:92:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SchedulerTest.java:92:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:92:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:95:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SchedulerTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:96:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SchedulerTest.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SchedulerTest.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:8:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:8:	headerCommentRequirement Required
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:10:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:11:	Avoid variables with short names like l
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:11:	Local variable 'l' could be declared final
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:12:	Avoid variables with short names like a3
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:12:	Local variable 'a3' could be declared final
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:13:	Avoid variables with short names like a4
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:13:	Local variable 'a4' could be declared final
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:16:	Avoid variables with short names like s
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:16:	Local variable 's' could be declared final
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:17:	Consider simply returning the value vs storing it in local variable 's'
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:20:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:21:	Avoid variables with short names like l
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:21:	Local variable 'l' could be declared final
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:22:	Avoid variables with short names like a3
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:22:	Local variable 'a3' could be declared final
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:24:	Avoid variables with short names like s1
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:24:	Local variable 's1' could be declared final
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:27:	Avoid empty catch blocks
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:32:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:32:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:33:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:34:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:36:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:37:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:39:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:40:	JUnit assertions should include a message
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/SequentialSchedulerTest.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:7:	Avoid unused imports such as 'fil.coo.action.ResourceActionTest.MockResourcePool'
+src/test/java/fil/coo/action/TakeResourceActionTest.java:8:	Avoid unused imports such as 'fil.coo.action.ResourceActionTest.MockUser'
+src/test/java/fil/coo/action/TakeResourceActionTest.java:9:	Avoid unused imports such as 'fil.coo.action.exception.ActionFinishedException'
+src/test/java/fil/coo/action/TakeResourceActionTest.java:12:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/TakeResourceActionTest.java:12:	This class name ends with Test but contains no test cases
+src/test/java/fil/coo/action/TakeResourceActionTest.java:12:	headerCommentRequirement Required
+src/test/java/fil/coo/action/TakeResourceActionTest.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/TakeResourceActionTest.java:13:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/TakeResourceActionTest.java:16:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TakeResourceActionTest.java:21:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/TakeResourceActionTest.java:21:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TakeResourceActionTest.java:22:	JUnit assertions should include a message
+src/test/java/fil/coo/action/TakeResourceActionTest.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:25:	JUnit assertions should include a message
+src/test/java/fil/coo/action/TakeResourceActionTest.java:25:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:25:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:25:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:26:	JUnit assertions should include a message
+src/test/java/fil/coo/action/TakeResourceActionTest.java:26:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:26:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:27:	JUnit assertions should include a message
+src/test/java/fil/coo/action/TakeResourceActionTest.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:31:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/TakeResourceActionTest.java:31:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TakeResourceActionTest.java:32:	JUnit assertions should include a message
+src/test/java/fil/coo/action/TakeResourceActionTest.java:32:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:32:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:34:	JUnit assertions should include a message
+src/test/java/fil/coo/action/TakeResourceActionTest.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TakeResourceActionTest.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestAction.java:7:	Abstract classes should be named AbstractXXX
+src/test/java/fil/coo/action/TestAction.java:7:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/TestAction.java:7:	headerCommentRequirement Required
+src/test/java/fil/coo/action/TestAction.java:15:	protectedMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestAction.java:19:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/action/TestAction.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/TestAction.java:21:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/action/TestAction.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/action/TestAction.java:25:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestAction.java:31:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestAction.java:32:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestAction.java:36:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestAction.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestAction.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestAction.java:41:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestAction.java:46:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/TestAction.java:46:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestAction.java:47:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestAction.java:47:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestAction.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestAction.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestForseable.java:8:	Each class should declare at least one constructor
+src/test/java/fil/coo/action/TestForseable.java:8:	headerCommentRequirement Required
+src/test/java/fil/coo/action/TestForseable.java:9:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/TestForseable.java:10:	fieldCommentRequirement Required
+src/test/java/fil/coo/action/TestForseable.java:12:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestForseable.java:16:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestForseable.java:17:	Avoid variables with short names like a
+src/test/java/fil/coo/action/TestForseable.java:17:	Local variable 'a' could be declared final
+src/test/java/fil/coo/action/TestForseable.java:20:	Avoid empty catch blocks
+src/test/java/fil/coo/action/TestForseable.java:25:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/TestForseable.java:25:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestForseable.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestForseable.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestForseable.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestForseable.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/action/TestForseable.java:34:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/action/TestForseable.java:34:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/action/TestForseable.java:35:	Avoid variables with short names like a
+src/test/java/fil/coo/action/TestForseable.java:35:	Local variable 'a' could be declared final
+src/test/java/fil/coo/resource/BasketPoolTest.java:5:	Avoid unused imports such as 'org.junit.Test'
+src/test/java/fil/coo/resource/BasketPoolTest.java:7:	No need to import a type that lives in the same package
+src/test/java/fil/coo/resource/BasketPoolTest.java:8:	No need to import a type that lives in the same package
+src/test/java/fil/coo/resource/BasketPoolTest.java:9:	No need to import a type that lives in the same package
+src/test/java/fil/coo/resource/BasketPoolTest.java:11:	Each class should declare at least one constructor
+src/test/java/fil/coo/resource/BasketPoolTest.java:11:	This class name ends with Test but contains no test cases
+src/test/java/fil/coo/resource/BasketPoolTest.java:11:	headerCommentRequirement Required
+src/test/java/fil/coo/resource/BasketPoolTest.java:13:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/BasketPoolTest.java:17:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/CubiclePoolTest.java:5:	Avoid unused imports such as 'org.junit.Test'
+src/test/java/fil/coo/resource/CubiclePoolTest.java:7:	No need to import a type that lives in the same package
+src/test/java/fil/coo/resource/CubiclePoolTest.java:8:	No need to import a type that lives in the same package
+src/test/java/fil/coo/resource/CubiclePoolTest.java:9:	No need to import a type that lives in the same package
+src/test/java/fil/coo/resource/CubiclePoolTest.java:11:	Each class should declare at least one constructor
+src/test/java/fil/coo/resource/CubiclePoolTest.java:11:	This class name ends with Test but contains no test cases
+src/test/java/fil/coo/resource/CubiclePoolTest.java:11:	headerCommentRequirement Required
+src/test/java/fil/coo/resource/CubiclePoolTest.java:13:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/CubiclePoolTest.java:17:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:9:	No need to import a type that lives in the same package
+src/test/java/fil/coo/resource/ResourcePoolTest.java:10:	No need to import a type that lives in the same package
+src/test/java/fil/coo/resource/ResourcePoolTest.java:12:	Abstract classes should be named AbstractXXX
+src/test/java/fil/coo/resource/ResourcePoolTest.java:12:	Each class should declare at least one constructor
+src/test/java/fil/coo/resource/ResourcePoolTest.java:12:	headerCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:14:	fieldCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:16:	protectedMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:17:	protectedMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:19:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/resource/ResourcePoolTest.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/resource/ResourcePoolTest.java:19:	fieldCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:20:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/test/java/fil/coo/resource/ResourcePoolTest.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/resource/ResourcePoolTest.java:20:	fieldCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:23:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:29:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:34:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:40:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:48:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/resource/ResourcePoolTest.java:48:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:50:	Local variable 'resource' could be declared final
+src/test/java/fil/coo/resource/ResourcePoolTest.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:59:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:65:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourcePoolTest.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourcePoolTest.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:6:	Each class should declare at least one constructor
+src/test/java/fil/coo/resource/ResourceUserTest.java:6:	headerCommentRequirement Required
+src/test/java/fil/coo/resource/ResourceUserTest.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/resource/ResourceUserTest.java:7:	fieldCommentRequirement Required
+src/test/java/fil/coo/resource/ResourceUserTest.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/fil/coo/resource/ResourceUserTest.java:8:	fieldCommentRequirement Required
+src/test/java/fil/coo/resource/ResourceUserTest.java:10:	Each class should declare at least one constructor
+src/test/java/fil/coo/resource/ResourceUserTest.java:10:	headerCommentRequirement Required
+src/test/java/fil/coo/resource/ResourceUserTest.java:12:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourceUserTest.java:18:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourceUserTest.java:24:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/resource/ResourceUserTest.java:24:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourceUserTest.java:25:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:25:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:32:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/fil/coo/resource/ResourceUserTest.java:32:	publicMethodCommentRequirement Required
+src/test/java/fil/coo/resource/ResourceUserTest.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/fil/coo/resource/ResourceUserTest.java:36:	Potential violation of Law of Demeter (method chain calls)
